@@ -1,0 +1,65 @@
+body {
+    background-color: skyblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 360px;
+    padding: 30px;
+    text-align: center;
+    background-color: gray;
+    margin: 5px auto;
+    border-radius: 8px;
+}
+
+input {
+    width: 270px;
+    padding: 8px;
+    border: 2px solid black;
+    outline: none;
+    font-size: 19px;
+    border-radius: 4px;
+}
+
+button {
+    background-color: black;
+    width: 60px;
+    border-radius: 2px;
+    color: white;
+    height: 35px;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+
+button.del {
+    background-color: red;
+    color: black;
+    height: 50px;
+    width: 60px;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#task-list li {
+    background-color: white;
+    font-size: 19px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
